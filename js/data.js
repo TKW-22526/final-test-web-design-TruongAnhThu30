@@ -395,4 +395,87 @@ Chất liệu thoáng khí, thấm hút mồ hôi tốt, mang lại cảm giác 
     Chất liệu bền, giữ form tốt và tăng độ thời trang cho người mang.
   `
 },
+{
+  id: "non35",
+  name: "Nón Kết Basic",
+  price: "149.000₫",
+  desc: "Đơn giản, trẻ trung",
+  img: "../assets/images/pk1.jfif",
+  detail: `
+    Nón kết basic với thiết kế đơn giản, trẻ trung, phù hợp cho cả nam và nữ.<br>
+    Chất liệu bền đẹp, thoáng mát, dễ phối cùng nhiều phong cách thời trang khác nhau.
+  `
+},
+
+{
+  id: "non36",
+  name: "Nón Kết Thời Trang",
+  price: "179.000₫",
+  desc: "Cá tính, năng động",
+  img: "../assets/images/pk2.jfif",
+  detail: `
+    Nón kết thời trang mang phong cách cá tính, tạo điểm nhấn nổi bật cho trang phục.<br>
+    Thiết kế hiện đại, ôm vừa vặn, thích hợp đi học, đi chơi hoặc du lịch.
+  `
+},
+
+{
+  id: "non37",
+  name: "Kính Mát Thời Trang",
+  price: "249.000₫",
+  desc: "Sang trọng, hiện đại",
+  img: "../assets/images/pk3.png",
+  detail: `
+    Kính mát thời trang với kiểu dáng hiện đại, giúp bảo vệ mắt trước ánh nắng mặt trời.<br>
+    Phù hợp sử dụng hằng ngày và dễ kết hợp với nhiều phong cách thời trang.
+  `
+},
+
+{
+  id: "non38",
+  name: "Kính Chống Tia UV",
+  price: "299.000₫",
+  desc: "Bảo vệ mắt, thời thượng",
+  img: "../assets/images/pk4.png",
+  detail: `
+    Kính chống tia UV giúp hạn chế tác hại của ánh nắng, bảo vệ đôi mắt hiệu quả.<br>
+    Thiết kế thời trang, gọng nhẹ, mang lại cảm giác thoải mái khi sử dụng.
+  `
+},
+
+{
+  id: "non39",
+  name: "Ví Da Nam",
+  price: "299.000₫",
+  desc: "Lịch lãm, sang trọng",
+  img: "../assets/images/pk5.jfif",
+  detail: `
+    Ví da nam được thiết kế sang trọng với nhiều ngăn tiện lợi để đựng tiền và thẻ.<br>
+    Chất liệu da cao cấp, đường may chắc chắn, phù hợp sử dụng hằng ngày hoặc làm quà tặng.
+  `
+},
+
+{
+  id: "non40",
+  name: "Túi Xách Nữ HAPAS",
+  price: "1.000.000₫",
+  desc: "Thanh lịch, thời trang",
+  img: "../assets/images/pk6.jfif",
+  detail: `
+    Túi xách nữ HAPAS mang phong cách thanh lịch, phù hợp đi làm, đi chơi hoặc dự tiệc.<br>
+    Thiết kế rộng rãi, chất liệu cao cấp cùng kiểu dáng hiện đại giúp tôn lên vẻ đẹp của người sử dụng.
+  `
+},
+
+{
+  id: "non41",
+  name: "Túi Xách Nữ",
+  price: "1.200.000₫",
+  desc: "Thanh lịch",
+  img: "../assets/images/pk8.jfif",
+  detail: `
+    Túi xách nữ thiết kế tinh tế với kiểu dáng hiện đại, dễ phối cùng nhiều loại trang phục.<br>
+    Không gian chứa rộng rãi, chất liệu bền đẹp, thích hợp sử dụng hằng ngày hoặc trong những dịp đặc biệt.
+  `
+}
 ];
