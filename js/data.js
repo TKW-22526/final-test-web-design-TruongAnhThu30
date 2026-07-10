@@ -477,5 +477,104 @@ Chất liệu thoáng khí, thấm hút mồ hôi tốt, mang lại cảm giác 
     Túi xách nữ thiết kế tinh tế với kiểu dáng hiện đại, dễ phối cùng nhiều loại trang phục.<br>
     Không gian chứa rộng rãi, chất liệu bền đẹp, thích hợp sử dụng hằng ngày hoặc trong những dịp đặc biệt.
   `
-}
+},
+{
+    id: "ho42", 
+    name: "Đồng hồ",
+    price: "1.500.000₫",
+    desc: "Qúy phái",
+    img: "../assets/images/ho1.jfif",
+    detail: `
+      Đồng hồ thiết kế tinh tế với kiểu dáng quý phái, dễ phối cùng nhiều loại trang phục.<br>
+      Chất liệu bền đẹp, thích hợp sử dụng hằng ngày hoặc trong những dịp đặc biệt.
+    `
+},
+{
+    id: "ho43",
+    name: "Đồng hồ cao cấp",
+    price: "1.700.000₫",
+    desc: "Sang trọng,cao cấp",
+    img: "../assets/images/ho2.jfif",
+    detail: `
+      Đồng hồ cao cấp thiết kế tinh tế với kiểu dáng sang trọng, cao cấp, dễ phối cùng nhiều loại trang phục.<br>
+      Chất liệu cao cấp bền đẹp, thích hợp sử dụng hằng ngày hoặc trong những dịp đặc biệt.
+    `
+},
+{
+    id: "bong44",
+    name: "Bông tay",
+    price: "500.000₫",
+    desc: "Xinh đẹp",
+    img: "../assets/images/bong1.jfif",
+    detail: `
+      Bông tay thiết kế tinh tế với kiểu dáng xinh đẹp, dễ phối cùng nhiều loại trang phục.<br>
+      Chất liệu bền đẹp, thích hợp sử dụng hằng ngày hoặc trong những dịp đặc biệt.
+    `
+},
+{
+    id: "bong45",
+    name: "Bông tay dự tiệc",
+    price: "800.000₫",
+    desc: "Sang",
+    img: "../assets/images/bong2.jfif",
+    detail: `
+      Bông tay dự tiệc thiết kế tinh tế với kiểu dáng sang trọng, dễ phối cùng nhiều loại trang phục.<br>
+      Chất liệu bền đẹp, thích hợp sử dụng hằng ngày hoặc trong những dịp đặc biệt.
+    `
+},
+{
+  id: "nammoi46",
+  name: "Áo thun",
+  price: "250.000₫",
+  desc: "Đơn giản,dễ phối",
+  img: "../assets/images/nammoi1.jfif",
+  detail: `
+    Áo thun thiết kế tinh tế với kiểu dáng đơn giản, dễ phối cùng nhiều loại trang phục.<br>
+    Chất liệu vải thoáng mát, bền đẹp, thích hợp sử dụng hằng ngày hoặc trong những dịp đặc biệt.
+  `
+},
+{
+  id: "giay47",
+  name: "Giày Thể Thao",
+  price: "1.000.000₫",
+  desc: "Dễ phối",
+  img: "../assets/images/giaymoi47.jfif",
+  detail: `
+    Giày thể thao thiết kế tinh tế với kiểu dáng hiện đại, dễ phối cùng nhiều loại trang phục.<br>
+    Chất liệu êm ái, bền đẹp, thích hợp sử dụng hằng ngày cho các hoạt động thể thao hoặc đi chơi.
+  `
+},
+{
+    id: "numoi48",
+    name: "Đồ nhẹ nhàng",
+    price: "356.000₫",
+    desc: "Dễ phối",
+    img: "../assets/images/numoi48.jfif",
+    detail: `
+      Sét trang phục thiết kế tinh tế với phong cách nhẹ nhàng, dễ phối cùng nhiều loại phụ kiện.<br>
+      Chất liệu vải mềm mại, thoáng mát, thích hợp mặc đi chơi, đi làm hoặc dạo phố.
+    `
+  },
+  {
+    id: "numoi49",
+    name: "Đồ thanh lịch",
+    price: "236.000₫",
+    desc: "Nhẹ nhàng",
+    img: "../assets/images/numoi49.jfif",
+    detail: `
+      Bộ trang phục mang đậm nét thanh lịch, kiểu dáng nhẹ nhàng và tôn dáng người mặc.<br>
+      Đường may tỉ mỉ, thích hợp cho các cô nàng yêu thích sự giản dị nhưng không kém phần cuốn hút.
+    `
+  },
+  {
+  id: "numoi50",
+  name: "Đồ ở nhà",
+  price: "236.000₫",
+  desc: "Thoải mái",
+  img: "../assets/images/numoi50.jfif",
+  detail: `
+    Đồ ở nhà thiết kế đơn giản mang lại cảm giác thoải mái tối đa khi mặc.<br>
+    Chất liệu vải mềm mại, thấm hút mồ hôi tốt, là lựa chọn lý tưởng cho các hoạt động thư giãn tại gia.
+  `
+  }
 ];
