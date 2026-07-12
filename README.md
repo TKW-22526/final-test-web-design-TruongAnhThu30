@@ -178,7 +178,7 @@ Sinh viên cập nhật thông tin cá nhân tại đây:
 Họ và tên:Trương Anh Thư
 Mã số sinh viên:110125171
 Lớp:DA25TTA
-Tên đề tài:: Thiết kế và Xây dựng Website thời trang casedle store
+Tên đề tài:: Thiết kế và Xây dựng Website thời trang trực tuyến casedle store
 Liên kết GitHub repository:
 Liên kết GitHub Pages:
 ```
