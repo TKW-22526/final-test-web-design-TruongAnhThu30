@@ -180,5 +180,6 @@ Mã số sinh viên:110125171
 Lớp:DA25TTA
 Tên đề tài:: Thiết kế và Xây dựng Website thời trang trực tuyến casedle store
 Liên kết GitHub repository: https://github.com/TKW-22526/final-test-web-design-TruongAnhThu30.git
-Liên kết GitHub Pages:
+Liên kết GitHub Pages: https://tkw-22526.github.io/final-test-web-design-TruongAnhThu30/
+
 ```
