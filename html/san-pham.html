@@ -1,948 +1,227 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Sản Phẩm - CASEDLE STORE</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/style3.css">
+
 </head>
+
+
 <body>
+
 
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container">
 
-        <!-- Logo -->
+    <div class="container">
         <a class="navbar-brand fw-bold" href="../index.html">
             CASEDLE STORE
         </a>
 
-        <button class="navbar-toggler" type="button"
+        <button class="navbar-toggler" 
+                type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#menu">
+
             <span class="navbar-toggler-icon"></span>
+
         </button>
 
         <div class="collapse navbar-collapse" id="menu">
-
             <ul class="navbar-nav ms-auto">
-
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Trang chủ</a>
+                    <a class="nav-link" href="../index.html">
+                        Trang chủ
+                    </a>
                 </li>
+
+                <!-- DANH MỤC -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"
                        href="#"
                        data-bs-toggle="dropdown">
-                        Danh mục
+                    Danh mục
                     </a>
-
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="thoitrangnam.html">Thời trang Nam</a></li>
-                        <li><a class="dropdown-item" href="thoitrangnu.html">Thời trang Nữ</a></li>
-                        <li><a class="dropdown-item" href="giaydep.html">Giày dép</a></li>
-                        <li><a class="dropdown-item" href="phukien.html">Phụ kiện</a></li>
+                   <li>
+                            <a class="dropdown-item" 
+                               href="san-pham.html?category=nam">
+                                Thời trang Nam
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="san-pham.html?category=nu">
+
+                                Thời trang Nữ
+                            </a>
+                        </li>
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="san-pham.html?category=giay">
+
+                              Giày Dép
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               href="san-pham.html?category=phukien">
+                             Phụ Kiện
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active " href="san-pham.html">Sản phẩm</a>
+                    <a class="nav-link active" href="san-pham.html">
+                        Sản phẩm
+                    </a>
                 </li>
-
-                <!-- Danh mục dropdown -->
-               
-
                 <li class="nav-item">
-                    <a class="nav-link " href="lien-he.html">Liên hệ</a>
+                    <a class="nav-link" href="lien-he.html">
+                        Liên hệ
+                    </a>
                 </li>
-
             </ul>
-
         </div>
     </div>
 </nav>
-<!-- TIÊU ĐỀ -->
+
 <section class="text-center py-5">
-    <h1 class="fw-bold text-white">TẤT CẢ SẢN PHẨM</h1>
-    <p class="text-muted">Chọn sản phẩm bạn yêu thích</p>
+
+    <h1 class="fw-bold text-white" id="title-product">
+        TẤT CẢ SẢN PHẨM
+    </h1>
+
+    <p class="text-muted">
+        Chọn sản phẩm bạn yêu thích
+    </p>
+
 </section>
 
-<!-- SẢN PHẨM -->
+<!-- DANH SÁCH SẢN PHẨM -->
+
 <section class="container pb-5">
 
-    <div class="row g-4">
-       
-        <div class="col-lg-3 col-md-6">
-                    <a href="chitiet.html" class="text-decoration-none text-dark">
-
-                        <div class="card h-100 shadow-sm">
-
-                            <img src="../assets/images/6.jpg" class="card-img-top">
-
-                            <div class="card-body text-center">
-                                <h5>Quần Jeans</h5>
-                                <p class="text-muted">Trẻ trung năng động</p>
-                                <p class="text-danger fw-bold">399.000₫</p>
-                                <a href="chitiet.html?id=nu1"  class="btn-detail">Xem Chi Tiết</a>
-                            </div>
-
-                        </div>
-
-                    </a>
-                </div>
-        
-        <!-- VÁY -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-
-                <div class="card h-100 shadow-sm">
-
-                    <img src="../assets/images/4.jpg" class="card-img-top">
-
-                    <div class="card-body text-center">
-                        <h5>Váy Thời Trang</h5>
-                        <p class="text-muted">Nữ tính, hiện đại</p>
-                        <p class="text-danger fw-bold">299.000₫</p>
-                         <a href="chitiet.html?id=nu2" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-
-                </div>
-
-            </a>
-        </div>
-
-        <!-- ÁO THUN -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-
-                <div class="card h-100 shadow-sm">
-
-                    <img src="../assets/images/5.webp" class="card-img-top">
-
-                    <div class="card-body text-center">
-                        <h5>Áo Thun Unisex</h5>
-                        <p class="text-muted">Thoải mái, dễ phối</p>
-                        <p class="text-danger fw-bold">250.000₫</p>
-                         <a href="chitiet.html?id=nu3" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-
-                </div>
-
-            </a>
-        </div>
-
-       <!-- ÁO KHOÁC -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-
-                <div class="card h-100 shadow-sm">
-
-                    <img src="../assets/images/a02.jfif" class="card-img-top">
-
-                    <div class="card-body text-center">
-                        <h5>outfit năng động</h5>
-                        <p class="text-muted">Phong cách trẻ trung</p>
-                        <p class="text-danger fw-bold">350.000₫</p>
-                         <a href="chitiet.html?id=nu4" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-
-                </div>
-
-            </a>
-        </div>
-
-
-        <!-- ÁO SƠ MI -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-
-                <div class="card h-100 shadow-sm">
-
-                    <img src="../assets/images/ao1.jfif" class="card-img-top">
-
-                    <div class="card-body text-center">
-                        <h5>Váy jean trắng</h5>
-                        <p class="text-muted">Năng đông, dễ phối đồ</p>
-                        <p class="text-danger fw-bold">199.000₫</p>
-                         <a href="chitiet.html?id=nu5" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-
-                </div>
-
-            </a>
-        </div>
-
-        <!-- ÁO HOODIE -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-
-                <div class="card h-100 shadow-sm">
-
-                    <img src="../assets/images/ao3.jfif" class="card-img-top">
-
-                    <div class="card-body text-center">
-                        <h5>set đồ thanh lịch</h5>
-                        <p class="text-muted">Ấm áp, cá tính</p>
-                        <p class="text-danger fw-bold">450.000₫</p>
-                         <a href="chitiet.html?id=nu6" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-
-                </div>
-
-            </a>
-        </div>
-       
-
-<!-- QUẦN JEANS -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/6.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Quần Jeans Nữ</h5>
-                        <p class="text-muted">Năng động, cá tính</p>
-                        <p class="text-danger fw-bold">399.000₫</p>
-                         <a href="chitiet.html?id=nu7"  class="btn-detail">Xem Chi Tiết</a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- ÁO KHOÁC -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ao4.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Kiểu</h5>
-                        <p class="text-muted">Phong cách thach lịch</p>
-                        <p class="text-danger fw-bold">450.000₫</p>
-                         <a href="chitiet.html?id=nu8" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- ÁO POLO -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ao5.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>outfit năng động</h5>
-                        <p class="text-muted">Năng động, trẻ trung</p>
-                        <p class="text-danger fw-bold">289.000₫</p>
-                         <a href="chitiet.html?id=nu9" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- ÁO SWEATER -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ao6.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Sweater</h5>
-                        <p class="text-muted">Thoải mái, ấm áp</p>
-                        <p class="text-danger fw-bold">329.000₫</p>
-                         <a href="chitiet.html?id=nu10" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-<div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/numoi48.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Đồ nhẹ ngàng</h5>
-                        <p class="text-muted">Dễ phối</p>
-                        <p class="text-danger fw-bold">356.000₫</p> 
-                        <a href="chitiet.html?id=numoi48" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-         <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/numoi49.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Đồ thanh lịch</h5>
-                        <p class="text-muted">Nhẹ nhàng</p>
-                        <p class="text-danger fw-bold">236.000₫</p> 
-                        <a href="chitiet.html?id=numoi49" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/numoi50.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Đồ ở nhà</h5>
-                        <p class="text-muted">Thoải mái</p>
-                        <p class="text-danger fw-bold">236.000₫</p> 
-                        <a href="chitiet.html?id=numoi50" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-<!-- ÁO BLAZER -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ao7.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Chân váy trắng</h5>
-                        <p class="text-muted">Sang trọng, thời thượng</p>
-                        <p class="text-danger fw-bold">599.000₫</p>
-                         <a href="chitiet.html?id=nu11" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- ÁO CROPTOP -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ao8.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>váy đi tiệc</h5>
-                        <p class="text-muted">Năng động, cá tính</p>
-                        <p class="text-danger fw-bold">179.000₫</p> 
-                        <a href="chitiet.html?id=nu12" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- ÁO THỂ THAO -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ao8.png" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Thun</h5>
-                        <p class="text-muted">Thoáng mát, năng động</p>
-                        <p class="text-danger fw-bold">249.000₫</p>
-                         <a href="chitiet.html?id=nu13" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-         
-        
-        <!--NAM-->
-       <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam1.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Thun Nam Basic</h5>
-                        <p class="text-muted">Trẻ trung, năng động</p>
-                        <p class="text-danger fw-bold">220.000₫</p>
-                         <a href="chitiet.html?id=nam14" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-       <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam2.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Nam Đi Du lịch Hè</h5>
-                        <p class="text-muted">Thoải mái, hiện đại</p>
-                        <p class="text-danger fw-bold">299.000₫</p>
-                         <a href="chitiet.html?id=nam15" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- NAM 3 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam3.png" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Khoác Nam</h5>
-                        <p class="text-muted">Phong cách cá tính</p>
-                        <p class="text-danger fw-bold">450.000₫</p>
-                         <a href="chitiet.html?id=nam16" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- NAM 4 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam4.jpeg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Quần Jeans Nam</h5>
-                        <p class="text-muted">Năng động mỗi ngày</p>
-                        <p class="text-danger fw-bold">399.000₫</p>
-                         <a href="chitiet.html?id=nam17" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- NAM 5 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam5.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Sơ Mi Nam</h5>
-                        <p class="text-muted">Thoải mái</p>
-                        <p class="text-danger fw-bold">279.000₫</p>
-                         <a href="chitiet.html?id=nam18" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- NAM 6 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam6.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo Hoodie Nam</h5>
-                        <p class="text-muted">Ấm áp, trẻ trung</p>
-                        <p class="text-danger fw-bold">420.000₫</p>
-                         <a href="chitiet.html?id=nam19" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-<!-- NAM 7 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam7.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Set Thời Trang Nam</h5>
-                        <p class="text-muted">Xu hướng 2026</p>
-                        <p class="text-danger fw-bold">599.000₫</p>
-                         <a href="chitiet.html?id=nam20" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-
-<!-- NAM 9 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam9.webp" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Sơ mi nam trắng</h5>
-                        <p class="text-muted">Đẳng cấp, thời thượng</p>
-                        <p class="text-danger fw-bold">250.000₫</p>
-                         <a href="chitiet.html?id=nam21" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-  
-        <!-- NAM 10 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam11.png" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Quần kaki Nam</h5>
-                        <p class="text-muted">Thoải mái</p>
-                        <p class="text-danger fw-bold">199.000₫</p>
-                         <a href="chitiet.html?id=nam22" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- NAM 11 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam12.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>outfit Nam</h5>
-                        <p class="text-muted">hiện đại</p>
-                        <p class="text-danger fw-bold">300.000₫</p>
-                         <a href="chitiet.html?id=nam23" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-         <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nammoi1.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Áo thun</h5>
-                        <p class="text-muted">Đơn giản,dễ phối</p>
-                        <p class="text-danger fw-bold">250.000₫</p>
-                         <a href="chitiet.html?id=nammoi46" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-         <!--giày-->
-          <div class="col-lg-3 col-md-6">
-        <a href="chitiet.html" class="text-decoration-none text-dark">
-
-                <div class="card h-100 shadow-sm">
-
-                    <img src="../assets/images/7.jfif" class="card-img-top">
-
-                    <div class="card-body text-center">
-                        <h5>Giày Thể Thao</h5>
-                        <p class="text-muted">Êm ái, thời trang</p>
-                        <p class="text-danger fw-bold">799.000₫</p>
-                         <a href="chitiet.html?id=giay24" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-
-                </div>
-
-            </a>
-        </div>
-        
-              <!-- NAM 8 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/nam8.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Blazer Nam</h5>
-                        <p class="text-muted">Đẳng cấp, thời thượng</p>
-                        <p class="text-danger fw-bold">699.000₫</p>
-                         <a href="chitiet.html?id=giay25" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-         </div>
-                <!-- GIÀY 1 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay1.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày Sneaker Trắng</h5>
-                        <p class="text-muted">Trẻ trung, dễ phối đồ</p>
-                        <p class="text-danger fw-bold">599.000₫</p>
-                         <a href="chitiet.html?id=giay26" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- GIÀY 2 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay2.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày Thể Thao Nam</h5>
-                        <p class="text-muted">Êm ái, năng động</p>
-                        <p class="text-danger fw-bold">799.000₫</p>
-                         <a href="chitiet.html?id=giay27" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giaymoi47.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày Thể Thao</h5>
-                        <p class="text-muted">Dễ phối</p>
-                        <p class="text-danger fw-bold">1.000.000₫</p>
-                         <a href="chitiet.html?id=giay47" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- GIÀY 3 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay3.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày Thể Thao</h5>
-                        <p class="text-muted">Phong cách hiện đại</p>
-                        <p class="text-danger fw-bold">649.000₫</p>
-                         <a href="chitiet.html?id=giay28" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- GIÀY 4 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay4.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày Chạy Bộ</h5>
-                        <p class="text-muted">Nhẹ nhàng, thoải mái</p>
-                        <p class="text-danger fw-bold">899.000₫</p>
-                         <a href="chitiet.html?id=giay29" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- GIÀY 6 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay6.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày Nữ</h5>
-                        <p class="text-muted">Phong cách trẻ trung</p>
-                        <p class="text-danger fw-bold">699.000₫</p>
-                         <a href="chitiet.html?id=giay30" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- GIÀY 7 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay7.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày bata</h5>
-                        <p class="text-muted">Cổ điển, cá tính</p>
-                        <p class="text-danger fw-bold">599.000₫</p>
-                         <a href="chitiet.html?id=giay31" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- GIÀY 8 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay8.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày búp bê</h5>
-                        <p class="text-muted">Năng động, êm ái</p>
-                        <p class="text-danger fw-bold">899.000₫</p>
-                         <a href="chitiet.html?id=giay32" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- GIÀY 9 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay9.jpg" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày nữ</h5>
-                        <p class="text-muted">Nhẹ nhàng, thoáng khí</p>
-                        <p class="text-danger fw-bold">799.000₫</p>
-                         <a href="chitiet.html?id=giay33" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- GIÀY 10 -->
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/giay10.webp" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Giày bốt</h5>
-                        <p class="text-muted">Thời thượng, đẳng cấp</p>
-                        <p class="text-danger fw-bold">1.299.000₫</p>
-                         <a href="chitiet.html?id=giay34" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- NÓN KẾT 1 -->
-<div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/pk1.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Nón Kết Basic</h5>
-                        <p class="text-muted">Đơn giản, trẻ trung</p>
-                        <p class="text-danger fw-bold">149.000₫</p>
-                         <a href="chitiet.html?id=non35" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- NÓN KẾT 2 -->
-
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/pk2.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Nón Kết Thời Trang</h5>
-                        <p class="text-muted">Cá tính, năng động</p>
-                        <p class="text-danger fw-bold">179.000₫</p>
-                         <a href="chitiet.html?id=non36" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- MẮT KÍNH 1 -->
-
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/pk3.png" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Kính Mát Thời Trang</h5>
-                        <p class="text-muted">Sang trọng, hiện đại</p>
-                        <p class="text-danger fw-bold">249.000₫</p>
-                         <a href="chitiet.html?id=non37" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- MẮT KÍNH 2 -->
-
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/pk4.png" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Kính Chống Tia UV</h5>
-                        <p class="text-muted">Bảo vệ mắt, thời thượng</p>
-                        <p class="text-danger fw-bold">299.000₫</p>
-                         <a href="chitiet.html?id=non38" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!-- VÍ NAM -->
-
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/pk5.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Ví Da Nam</h5>
-                        <p class="text-muted">Lịch lãm, sang trọng</p>
-                        <p class="text-danger fw-bold">299.000₫</p>
-                         <a href="chitiet.html?id=non39" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- TÚI XÁCH NỮ -->
-
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/pk6.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Túi Xách Nữ HAPAS</h5>
-                        <p class="text-muted">Thanh lịch, thời trang</p>
-                        <p class="text-danger fw-bold">1.000.000₫</p>
-                       <a href="chitiet.html?id=non40" class="btn-detail">
-            Xem Chi Tiết
-          </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-  <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/pk8.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Túi Xách Nữ </h5>
-                        <p class="text-muted">Thanh lịch</p>
-                        <p class="text-danger fw-bold">1.200.000₫</p>
-                         <a href="chitiet.html?id=non41" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-       <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ho1.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Đồng hồ</h5>
-                        <p class="text-muted">Qúy phái</p>
-                        <p class="text-danger fw-bold">1.500.000₫</p>
-                         <a href="chitiet.html?id=ho42" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-         <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/ho2.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Đồng hồ cao cấp</h5>
-                        <p class="text-muted">Sang trọng,cao cấp</p>
-                        <p class="text-danger fw-bold">1.700.000₫</p>
-                         <a href="chitiet.html?id=ho43" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/bong1.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Bông tay </h5>
-                        <p class="text-muted">Xinh đẹp</p>
-                        <p class="text-danger fw-bold">500.000₫</p>
-                         <a href="chitiet.html?id=bong44" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="chitiet.html" class="text-decoration-none text-dark">
-                <div class="card h-100 shadow-sm">
-                    <img src="../assets/images/bong2.jfif" class="card-img-top">
-                    <div class="card-body text-center">
-                        <h5>Bông tay dự tiệc </h5>
-                        <p class="text-muted">Sang</p>
-                        <p class="text-danger fw-bold">800.000₫</p>
-                         <a href="chitiet.html?id=bong45" class="btn-detail">
-                            Xem Chi Tiết
-                         </a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        </div>
-
+    <div class="row g-4" id="product-list">
+    </div>
 </section>
 <!-- FOOTER -->
+
 <footer class="bg-dark text-white text-center py-4">
-    <h5>CASEDLE STORE</h5>
-    <p>Định hình phong cách • Nâng tầm cá tính</p>
-    <p>© 2026 CASEDLE STORE</p>
+    <h5>
+        CASEDLE STORE
+    </h5>
+
+    <p>
+        Định hình phong cách • Nâng tầm cá tính
+    </p>
+
+    <p>
+        © 2026 CASEDLE STORE
+    </p>
+
 </footer>
+<!-- BOOTSTRAP -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
+<!-- DATA SẢN PHẨM -->
+
+<script src="../js/data.js"></script>
+
+<!-- LỌC VÀ HIỂN THỊ SẢN PHẨM -->
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+
+const category = params.get("category");
+
+
+// =====================
+// ĐỔI TIÊU ĐỀ THEO LOẠI
+// =====================
+
+const title = document.getElementById("title-product");
+
+
+if(category === "nam"){
+
+    title.innerHTML = "THỜI TRANG NAM";
+
+}
+else if(category === "nu"){
+
+    title.innerHTML = "THỜI TRANG NỮ";
+
+}
+else if(category === "giay"){
+
+    title.innerHTML = "GIÀY DÉP";
+
+}
+else if(category === "phukien"){
+
+    title.innerHTML = "PHỤ KIỆN";
+
+}
+else{
+
+    title.innerHTML = "TẤT CẢ SẢN PHẨM";
+
+}
+let list = products;
+if(category){
+    list = products.filter(
+        p => p.category === category
+    );
+}
+const box = document.getElementById("product-list");
+if(list.length > 0){
+    list.forEach(p => {
+        box.innerHTML += `
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="${p.img}"
+                     class="card-img-top"
+                     style="height:250px;object-fit:cover;">
+
+                <div class="card-body text-center">
+                    <h5>
+                        ${p.name}
+                    </h5>
+                    <p class="text-muted">
+                        ${p.desc}
+                    </p>
+                    <p class="text-danger fw-bold">
+                        ${p.price}
+                    </p>
+                    <a href="chitiet.html?id=${p.id}"
+                       class="btn btn-dark">
+                        Xem Chi Tiết
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        `;
+    });
+}
+else{
+    box.innerHTML = `
+        <h3 class="text-center text-danger">
+            Không tìm thấy sản phẩm
+        </h3>
+    `;
+}
+</script>
 </body>
 </html>
